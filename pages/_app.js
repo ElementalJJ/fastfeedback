@@ -11,7 +11,6 @@ const GlobalStyle = ({ children }) => {
       <Global
         styles={css`
           html {
-            min-width: 360px;
             scroll-behavior: smooth;
           }
           #__next {
@@ -26,7 +25,7 @@ const GlobalStyle = ({ children }) => {
   );
 };
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <ChakraProvider theme={customTheme}>
       <AuthProvider>
@@ -37,4 +36,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default App;
