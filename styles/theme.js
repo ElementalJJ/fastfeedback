@@ -2,7 +2,7 @@
 import { extendTheme } from '@chakra-ui/react';
 
 // 2. Extend the theme to include custom colors, fonts, etc
-const font = {
+const customTheme = {
   fonts: {
     body: `Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"`
   },
@@ -13,6 +13,6 @@ const font = {
   }
 };
 
-const theme = extendTheme({ font });
+const theme = extendTheme({ customTheme });
 
 export default theme;
