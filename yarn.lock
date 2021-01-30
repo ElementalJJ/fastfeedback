@@ -3145,6 +3145,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastfeedback@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "fastfeedback@workspace:."
+  dependencies:
+    "@chakra-ui/react": ^1.1.6
+    "@chakra-ui/styled-system": ^1.5.0
+    "@emotion/react": ^11.1.4
+    "@emotion/styled": ^11.0.0
+    date-fns: ^2.16.1
+    firebase: ^8.2.5
+    firebase-admin: ^9.4.2
+    framer-motion: ^3.2.2-rc.1
+    lodash: ^4.17.20
+    lodash.mergewith: ^4.6.2
+    next: 10.0.6
+    react: 17.0.1
+    react-dom: 17.0.1
+    react-hook-form: ^6.14.2
+    swr: ^0.4.1
+  languageName: unknown
+  linkType: soft
+
 "faye-websocket@npm:0.11.3":
   version: 0.11.3
   resolution: "faye-websocket@npm:0.11.3"
@@ -5893,28 +5915,6 @@ resolve@^1.12.0:
   checksum: f96abd0fb4595a1cbc875df661eceb7ae97cf05996f5327e38f16b5bf0c685296ab81d00a34059f6ca292bbba5eeed31ed7e51d2bf5d7cf6534a1a31aff0db86
   languageName: node
   linkType: hard
-
-"test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "test@workspace:."
-  dependencies:
-    "@chakra-ui/react": ^1.1.6
-    "@chakra-ui/styled-system": ^1.5.0
-    "@emotion/react": ^11.1.4
-    "@emotion/styled": ^11.0.0
-    date-fns: ^2.16.1
-    firebase: ^8.2.5
-    firebase-admin: ^9.4.2
-    framer-motion: ^3.2.2-rc.1
-    lodash: ^4.17.20
-    lodash.mergewith: ^4.6.2
-    next: 10.0.6
-    react: 17.0.1
-    react-dom: 17.0.1
-    react-hook-form: ^6.14.2
-    swr: ^0.4.1
-  languageName: unknown
-  linkType: soft
 
 "timers-browserify@npm:^2.0.4":
   version: 2.0.12
