@@ -4,7 +4,7 @@ import firebase from './firebase';
 
 const authContext = createContext();
 
-export function AuthProvider({ children }) {
+export function AuthProvider({ children }: any) {
   const auth = useProvideAuth();
   return <authContext.Provider value={auth}>{children}</authContext.Provider>;
 }
